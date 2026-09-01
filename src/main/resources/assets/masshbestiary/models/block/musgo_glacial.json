@@ -1,0 +1,16 @@
+{
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "masshbestiary:block/musgo_glacial",
+    "texture": "masshbestiary:block/musgo_glacial"
+  },
+  "elements": [
+    {
+      "from": [0, 15.9, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "up": { "uv": [0, 0, 16, 16], "texture": "#texture" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemGroup.masshbestiary": "Example Mod Tab",
+  "block.masshbestiary.example_block": "Example Block",
+  "block.masshbestiary.musgo_glacial": "Glacial Moss",
+  "item.masshbestiary.example_item": "Example Item",
+
+  "masshbestiary.configuration.title": "Masshology - Masshbestiary Configs",
+  "masshbestiary.configuration.section.masshbestiary.common.toml": "Masshology - Masshbestiary Configs",
+  "masshbestiary.configuration.section.masshbestiary.common.toml.title": "Masshology - Masshbestiary Configs",
+  "masshbestiary.configuration.items": "Item List",
+  "masshbestiary.configuration.logDirtBlock": "Log Dirt Block",
+  "masshbestiary.configuration.magicNumberIntroduction": "Magic Number Text",
+  "masshbestiary.configuration.magicNumber": "Magic Number"
+}
