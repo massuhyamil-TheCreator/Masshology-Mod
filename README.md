@@ -103,7 +103,7 @@ Author
 Yamil Massuh, Licenciatura en Sistemas (Information Systems) student at UADE, Buenos Aires, Argentina. Self-taught in Python; learned Java largely by building this project.
 
 GitHub: massuhyamil-TheCreator
-Contact: <!-- TODO: email / LinkedIn -->
+Contact: <!-- TODO: email: massuhyamil@gmail.com / LinkedIn: www.linkedin.com/in/yamil-massuh-sistemas
 License
 <!-- TODO: choose a license (e.g. MIT for the code) and state whether the art assets are all rights reserved -->
 Resumen en español
@@ -120,4 +120,4 @@ El resto del bestiario y la dimensión están diseñados pero no empezados.
 
 Qué demuestra el proyecto: arquitectura de IA con Brain (Sensors, Memories, Behaviors, Activities), pipeline de animación con GeckoLib, registros de NeoForge, assets orientados a datos, lectura de código fuente decompilado para trabajar sobre una versión con APIs renombradas, y control de versiones con Git entre dos máquinas.
 
-Autor: Yamil Massuh, estudiante de Licenciatura en Sistemas en UADE. Autodidacta en Python; aprendió Java en buena parte construyendo este proyecto.
+Autor: Yamil Massuh, estudiante de Licenciatura en Sistemas en UADE. Autodidacta en Python; aprendió Java en buena parte construyendo este proyecto.    
