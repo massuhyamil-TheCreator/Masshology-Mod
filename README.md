@@ -4,7 +4,6 @@ A solo-developed creature and dimension mod for Minecraft (NeoForge 1.21.11), se
 
 Status: work in progress. The first creature is complete and playable; the second is mid-implementation. See Project status for an honest breakdown of what exists today and what is only designed.
 
-<!-- TODO: add 1-2 screenshots or a short GIF of the Draugr Warrior in-game here --> <!-- ![Draugr Warrior](docs/draugr.png) -->
 What this project is
 
 Everything in the mod is built end to end by one person:
@@ -30,7 +29,7 @@ CabrunuAi: memories, Core activity, Idle activity	Done
 CabrunuAi: Ram activity, Long Jump activity	Pending
 Panic only below ~30% health	Pending
 Renderer and in-game testing	Pending (not yet runnable in-game)
-<!-- TODO: update these tables to match the real state of the repo before sending -->
+
 Technical highlights
 
 Brain-based creature AI. Instead of the simple Goal system, the Cabrunu uses Minecraft's Brain architecture (the same one used by vanilla goats, villagers and piglins): Sensors write to typed Memories, Behaviors read them, and Behaviors are grouped into Activities that compete based on memory conditions. The Idle activity already composes vanilla behaviors (BabyFollowAdult, RandomStroll, AnimalMakeLove, FollowTemptation); the Ram and Long Jump activities are planned to reuse vanilla's RamTarget / PrepareRamNearestTarget rather than reimplement them. The AI logic lives in its own class (CabrunuAi), separate from the entity, mirroring the structure of vanilla.
@@ -91,10 +90,14 @@ cd Masshology-Mod
 
 This launches a development Minecraft client with the mod loaded. In-game, spawn the Draugr Warrior with its spawn egg from the creative inventory.
 
-<!-- TODO: confirm the exact steps above work from a fresh clone -->
+## Design documentation
+
+Full design docs (creature descriptions, GIFs, mechanics and progression estimates) are kept in Notion:
+[Masshbestiary Design Notes](https://app.notion.com/p/MASSHOLOGY-El-Compendio-de-Bestias-Olvidadas-3bea7e3fcf7380a7a1d2f3524c448c0a?source=copy_link)
+
 Roadmap
 Finish the Cabrunu (Ram, Long Jump, panic threshold, renderer) and test it in-game
-Bullgar (cargo animal) design and modeling
+Bullgar (cargo animal) design and modeling.
 Remaining creature roster, then Frostvelgr
 Farfrost dimension, world generation and survival systems
 Polish, balance and a 1.0 release
@@ -103,9 +106,9 @@ Author
 Yamil Massuh, Licenciatura en Sistemas (Information Systems) student at UADE, Buenos Aires, Argentina. Self-taught in Python; learned Java largely by building this project.
 
 GitHub: massuhyamil-TheCreator
-Contact: <!-- TODO: email: massuhyamil@gmail.com / LinkedIn: www.linkedin.com/in/yamil-massuh-sistemas
+Contact: Email: massuhyamil@gmail.com / LinkedIn: www.linkedin.com/in/yamil-massuh-sistemas
 License
-<!-- TODO: choose a license (e.g. MIT for the code) and state whether the art assets are all rights reserved -->
+Code under MIT. Models, animations and textures: all rights reserved.
 Resumen en español
 
 Masshbestiary es un mod para Minecraft (NeoForge 1.21.11) desarrollado por una sola persona, ambientado en un universo original llamado Masshology. El eje es el Farfrost, una dimensión helada y hostil con criaturas, jefes, progresión y reglas de supervivencia propias.
